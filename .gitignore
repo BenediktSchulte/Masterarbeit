@@ -8,6 +8,8 @@
 *.fls
 *.bbl
 *.blg
+*.bcf
+*.run.xml
 build/
 dist/
 out/
