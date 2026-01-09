@@ -17,6 +17,8 @@ out/
 *.stl
 # Data Datein
 *.csv
+*.xlsx
+*.xls
 # Virtuelle Umgebung
 .env
 .env.*
@@ -43,3 +45,6 @@ desktop.ini
 
 #Python
 __pycache__/
+
+# Ordner
+3D_Druck/
