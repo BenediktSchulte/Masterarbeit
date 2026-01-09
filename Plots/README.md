@@ -1,1 +1,1 @@
-In diesem Ordner befinden diech alle gespeicherten Plots der Daten.
+In diesem Ordner befinden sich alle gespeicherten Plots der Daten.
