@@ -1,0 +1,15 @@
+TODO:
+
+[ ] Linse verschieben
+	[ ] links
+	[ ] rechts
+	[ ] oben
+	[ ] unten
+[ ] Verschiedene Linsen nutzen
+[ ] Halter für Linse IN Horn?
+[ ] Wenn die Linse ins horn guckt, kann ich sie überhaupt vernünftig 	verschieben?
+[ ]
+[ ]
+[ ]
+[ ]
+[ ]

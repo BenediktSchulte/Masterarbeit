@@ -1,0 +1,54 @@
+% !TEX root = main.tex
+
+% ---------- Sprache & Encoding ----------
+\usepackage[ngerman]{babel}
+\usepackage[autostyle=true]{csquotes}
+\usepackage[T1]{fontenc}
+
+% ---------- Seitenlayout ----------
+\usepackage[
+  a4paper,
+  top=2cm,
+  bottom=2cm,
+  left=3cm,
+  right=3cm
+]{geometry}
+
+% ---------- Mathematik ----------
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% ---------- Grafiken ----------
+\usepackage{graphicx}
+\graphicspath{{Bilder/}}
+
+% ---------- Tabellen & Floats ----------
+\usepackage{float}
+\usepackage{caption}
+\usepackage{subcaption}
+
+% ---------- Listen ----------
+\usepackage{enumitem}
+
+% ---------- Text & Layout ----------
+\usepackage{parskip}
+\usepackage[onehalfspacing]{setspace}
+\usepackage{picinpar}
+
+% ---------- PGFPlots ----------
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat=newest}
+\pgfplotsset{/pgf/number format/use comma}
+
+% ---------- Bibliographie ----------
+\usepackage[
+  backend=biber,
+  style=authoryear, % oder numeric
+  sorting=nyt
+]{biblatex}
+
+\addbibresource{bib/references.bib}
+
+% ---------- Links ----------
+\usepackage[colorlinks=true, allcolors=black]{hyperref}

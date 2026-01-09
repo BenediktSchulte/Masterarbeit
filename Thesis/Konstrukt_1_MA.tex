@@ -1,0 +1,141 @@
+\documentclass[12pt]{article}
+
+\usepackage[ngerman]{babel}
+\usepackage{pdfpages}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage{amsmath} 
+\usepackage{amssymb}
+
+\usepackage{graphicx}
+\graphicspath{{Bilder/}}
+\usepackage[colorlinks=true, allcolors=black]{hyperref}
+\usepackage[utf8]{inputenc} 
+\usepackage{float}
+
+\usepackage{subcaption}
+\usepackage{enumitem}
+
+\usepackage{pgfplots}
+\usepackage{pgfplotstable}
+\pgfplotsset{compat = newest}
+\pgfplotsset{/pgf/number format/use comma}
+\usepgfplotslibrary{external}
+\tikzexternalize
+
+\pgfdeclarelayer{fg} 
+\pgfsetlayers{main,fg}
+\usepackage{subfiles}
+\usepackage{blindtext}
+
+%-------Für Schrift neben TExt----
+\usepackage{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{parskip}
+\usepackage{picinpar}
+%-------Zeilenabstand-----
+\usepackage[onehalfspacing]{setspace}
+\usepackage{mwe}
+\usepackage{epstopdf}
+%------- Seitenrandabstand-------------\usepackage{geometry}
+%\geometry{left=3cm, right=2cm, top=2cm, bottom=2cm, bindingoffset=5mm}
+%-----Caption-----
+\usepackage{caption}
+%-----Bibliothek-----
+\bibliographystyle{unsrt}
+
+% ------ Für Latex eigene Titelseite----------
+\title{temp}
+\author{Benedikt Schulte}
+\date{}
+
+\begin{document}
+%\includepdf[pages=-]{temp.pdf}
+%\maketitle
+%\tableofcontents
+%\newpage
+%-------- Für Latex eigene Titelseite
+
+%--------Selbst erstelltes Titelblatt---------
+
+\pagenumbering{roman}
+%\includepdf[pages=-]{temp.pdf}
+%\maketitle
+%\tableofcontents
+%\newpage
+\begin{titlepage}
+    \begin{center}
+
+
+        \LARGE
+        \vspace{1cm}
+         Masterarbeit
+         
+          \vspace{2cm}
+         
+           \Huge
+            \textbf{Thema}
+
+              \vspace{2.5cm}
+         
+        Philips-Universität Marburg 
+       
+        
+            
+        \vspace{1cm}
+        \LARGE
+        Mathematisch-Naturwissenschaftliche Fakultät\\
+            Physik Institut
+        
+        \vspace{0.5cm}
+            
+        
+     \end{center}  
+     \vspace{3.5cm}
+
+\begin{center}
+\begin{tabular}[h]{ll}
+\textbf{Erstprüfer:}&  \\
+\textbf{Zweitprüfer:}& \\
+\end{tabular}\\
+    \vspace{2.0cm}
+\large
+\textbf{Benedikt Schulte}\\
+Datum
+\end{center}
+
+
+
+
+\thispagestyle{empty}
+%\begin{center}
+ %   \vspace{6.5cm}
+%\end{center}
+\end{titlepage}
+
+%------------Ende selbst erstelltes Titelblatt
+
+\section{Versuchsziel}
+
+\section{Theoretische Grundlagen}
+\subsection{Eigenschaften von Linsen}
+\subsection{3D Druck und Material}
+\subsection{GHz Bereich}
+\subsection{Hornantennen}
+
+
+\section{Versuchsaufbau und Versuchsdurchführung}
+\subsection{Eigenschaften der Linsen}
+
+\section{Auswertung}
+
+
+
+\section{Fehlerbetrachtung}
+
+\section{Diskussion der Messergebnisse}
+
+\section{Literatur}
+
+
+\end{document}
