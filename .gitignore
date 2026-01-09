@@ -32,7 +32,7 @@ secrets.*
 credentials.*
 
 # Betriebssystem / Editor-Müll
-.DS-Store
+.DS_Store
 Thumbs.db
 desktop.ini
 
