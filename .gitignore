@@ -1,0 +1,45 @@
+# Sämtliche temporären Latex Datein
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.bbl
+*.blg
+build/
+dist/
+out/
+.cache/
+# 3D Druck
+*.gcode
+*.stl
+# Data Datein
+*.csv
+# Virtuelle Umgebung
+.env
+.env.*
+venv/
+.env/
+.venv/
+
+
+*.key
+*.pem
+*.p12
+secrets.*
+credentials.*
+
+# Betriebssystem / Editor-Müll
+.DS-Store
+Thumbs.db
+desktop.ini
+
+# vsc
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+
+#Python
+__pycache__/
