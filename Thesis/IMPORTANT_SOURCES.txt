@@ -1,0 +1,7 @@
+Um das Quellenverzeichnis hinzuzufügen, kompiliere main.tex, lasse 
+       cd ~/Desktop/Masterarbeit/Thesis
+und dann 
+       biber build/main
+laufen. Dann nochmal kompilieren und die Quellen sollten am Ende eingefügt sein.
+
+Einfacher würde es gehen, wenn in .vscode settings.json in settings_slow.json und settings_sources.json in settings.json umbenannt wird. Dann wird automatisch das Quellenverzeichnis generiert. Es ist nur sehr viel langsamer.
